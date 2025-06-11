@@ -34,3 +34,6 @@ if st.button("Predict"):
             st.success(f"Prediction: Genuine ✅")
 
         st.write(f"Confidence: {confidence:.2f}%")
+
+st.markdown("<hr><center>Created by <b>Advaith</b></center>", unsafe_allow_html=True)
+
