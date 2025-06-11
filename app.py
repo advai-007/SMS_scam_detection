@@ -29,8 +29,8 @@ if st.button("Predict"):
 
         # Show result
         if prediction == 1:
-            st.error(f"Prediction: SPAM 🚫")
+            st.error(f"Prediction: Potential SPAM 🚫")
         else:
-            st.success(f"Prediction: HAM ✅")
+            st.success(f"Prediction: Genuine ✅")
 
         st.write(f"Confidence: {confidence:.2f}%")
