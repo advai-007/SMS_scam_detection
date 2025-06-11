@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load trained model and vectorizer from files
-model = joblib.load('spam_model.pkl')
-vectorizer = joblib.load('vectorizer.pkl')
+model = joblib.load('Deployment/spam_model.pkl')
+vectorizer = joblib.load('Deployment/vectorizer.pkl')
 
 # Title for your web app
 st.title("MessageGuard: SMS Spam Detection")
